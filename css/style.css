@@ -812,7 +812,6 @@ header:hover:before {
 }
 
 .main_box2 .foto_conteyner .flex_div_img .description_img h3 {
-    /* Style for "Claritas E" */
     text-align: left;
     display: block;
     padding: 30px 0 10px 30px;
@@ -848,7 +847,6 @@ header:hover:before {
 }
 
 .main_box2 .btn_5 {
-    /* Style for "button" */
     display: block;
     margin: -30px auto 0 auto;
     outline: none;
@@ -858,7 +856,6 @@ header:hover:before {
     box-shadow: inset 0 -3px 0 #736357;
     border-radius: 5px;
     background-color: #998675;
-    /* Style for "Get Starte" */
     color: #ffffff;
     font-family: "Raleway - Extra Bold";
     font-size: 14px;
@@ -891,4 +888,255 @@ header:hover:before {
 
 .svg:hover {
     fill: #c7b299;
+}
+
+.block_video:hover:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: rgba(72, 70, 66, 0.5);
+}
+
+.block_video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1920px;
+    min-height: 705px;
+}
+
+.block_video .video_film {
+    position: absolute;
+    z-index: -1;
+    width: 1920px;
+    opacity: 0.5;
+}
+
+.block_video .play_btn {
+    z-index: 1;
+    margin: -50px 0 30px 0;
+    position: relative;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.block_video .play_btn .a_svg_play {
+    position: absolute;
+    display: block;
+    left: 15px;
+    top: 15px;
+}
+
+.block_video .play_btn .svg_play {
+    fill: #fff;
+}
+
+.block_video .play_btn .svg_play:hover {
+    fill: gold;
+}
+
+.block_video .play_btn .svg_play:active {
+    fill: black;
+}
+
+.block_video .items_h2_p {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block_video .items_h2_p h2 {
+    margin: 0 0 30px 0;
+    height: 22px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.block_video .items_h2_p p {
+    margin: 0 0 50px 0;
+    text-align: center;
+    width: 565px;
+    height: 43px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.block_video .items_h2_p time {
+    width: 36px;
+    height: 10px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main_box4 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 700px;
+    background-color: #fbfaf8;
+    background-image: url(../img/iPhone%20in%20hand.png);
+    background-size: 420px 600px;
+    background-repeat: no-repeat;
+    background-position: 400px 100px;
+}
+
+.main_box4 .wraper_items_box4 {
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    height: 400px;
+}
+
+.main_box4 .wraper_items_box4 h2 {
+    padding: 0;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.main_box4 .wraper_items_box4 p {
+    width: 670px;
+    height: 100px;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+}
+
+.main_box4 .wraper_items_box4 .conteiner_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 40px 0 0 80px;
+    padding-top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main_box4 .wraper_items_box4 .conteiner_details details[open] {
+    height: 60px;
+    padding: 0;
+}
+
+.main_box4 .wraper_items_box4 .conteiner_details details {
+    height: 60px;
+    margin: 0 0 0 0;
+}
+
+.main_box4 .wraper_items_box4 .conteiner_details summary {
+    position: relative;
+    outline: none;
+    display: block;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.main_box4 .wraper_items_box4 .conteiner_details summary::-webkit-details-marker {
+    display: none;
+}
+
+.main_box4 .wraper_items_box4 .conteiner_details summary:before {
+    width: 17px;
+    height: 15px;
+    content: "";
+    background-image: url(../img/right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: -40px;
+    top: 3px;
+    margin-right: 8px;
+    padding: 4px;
+}
+
+.main_box4 .wraper_items_box4 .conteiner_details summary:active:before {
+    width: 15px;
+    height: 15px;
+    content: "";
+    background-image: url(../img/right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: -40px;
+    top: 3px;
+    margin-right: 8px;
+    padding: 4px;
+    transform: rotate(90deg);
+}
+
+.aside_2 {
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f5f8;
+    background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+}
+
+.aside_2 .social_icons {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+    height: 200px;
+}
+
+.aside_2 .social_icons .number {
+    min-width: 105px;
+    min-height: 34px;
+    color: #ffffff;
+    font-family: "Montserrat - Ultra Light";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.aside_2 .social_icons .counter {
+    min-width: 131px;
+    min-height: 10px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.aside_2 .social_icons .mini_line {
+    background-color: #ffffff;
+    width: 30px;
+    height: 2px;
+}
+
+.aside_2 .social_icons .svg_icons {
+    fill: #c7b299;
+    width: 44px;
+    height: 44px;
 }
