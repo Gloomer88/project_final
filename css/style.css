@@ -913,7 +913,7 @@ header:hover:before {
 .block_video .video_film {
     position: absolute;
     z-index: -1;
-    width: 1920px; 
+    width: 1920px;
     opacity: 0.5;
 }
 
